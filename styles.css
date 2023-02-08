@@ -1,0 +1,19 @@
+.body-container{
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    background-color: #deb887;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links-container{
+    display: flex;
+}
+
+.header-link{
+    margin-left: 12px;
+    margin-right: 12px;
+}

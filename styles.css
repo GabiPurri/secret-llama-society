@@ -22,7 +22,22 @@
 }
 
 .top-container{
-    width: 80%;
-    margin: auto;
     display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto; 
+}
+
+.hero-copy-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }

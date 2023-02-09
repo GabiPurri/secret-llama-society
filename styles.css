@@ -1,12 +1,10 @@
-.body-container{
-    width: 80%;
-    margin: auto;
-}
 
 .header{
-    background-color: #deb887;
     display: flex;
+    margin: auto;
+    width: 100%;
     justify-content: space-between;
+    background-color: aquamarine;
 }
 
 .header-links-container{
@@ -16,4 +14,15 @@
 .header-link{
     margin-left: 12px;
     margin-right: 12px;
+}
+
+.top-section{
+    display: flex;
+    background-color: blue;
+}
+
+.top-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
 }
